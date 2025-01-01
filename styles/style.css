@@ -152,7 +152,6 @@ a {
   text-transform: uppercase;
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
-  
 }
 
 .lots {
@@ -228,6 +227,7 @@ a {
   margin-left: 64px;
   line-height: 23.48px;
 }
+
 .about {
   display: grid;
   grid-template-columns: 334px auto;
@@ -290,6 +290,8 @@ a {
 
 .footer_menu {
   font-size: 18px;
+  margin-left: 20px;
+  padding-top: 1px;
 }
 
 .footer_social-list {
@@ -299,6 +301,7 @@ a {
   gap: 48px;
   list-style: none;
   margin-right: 50px;
+  padding-top: 1px;
 }
 
 .footer_menu-list {
@@ -313,5 +316,7 @@ a {
 .address_footer {
   padding-top: 1px;
   margin-right: 0px;
+  margin-left: 50px;
+  min-width: 264.57px;
 }
 

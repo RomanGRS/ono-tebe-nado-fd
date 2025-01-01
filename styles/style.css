@@ -2,6 +2,7 @@
 body {
   margin: auto;
   padding: 0;
+
 }
 
 h1,
@@ -25,17 +26,20 @@ a {
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 92px 50px 96px;
+  font-size: 18px;
+  font-family: 'Raleway', serif;
+  font-style: normal;
+  font-weight: 400;
+  min-height: 293px;
 }
 
 .header_links-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   list-style-type: circle;
   flex-direction: row;
-  gap: 13px;
-  padding-top: 35px;
-  padding-right: 50px;
+  gap: 30px;
+  padding: 138px 50px 96px;
 }
 
 .header_links-list-item_no-bullit {
@@ -49,6 +53,7 @@ a {
 .header_logo {
   display: block;
   min-width: 135px;
+  padding-top: 92px;
 }
 
 .header_logo-image {
@@ -58,12 +63,14 @@ a {
 .address {
   max-width: 250px;
   justify-self: end;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #000000; 
+  padding-top: 95px;
+  margin-right: 50px;
 }
 
 .cover {
@@ -120,7 +127,6 @@ a {
   justify-content: space-between;
   align-items: baseline;
   text-transform: uppercase;
-  height: 51px;
   z-index: 1;
   margin-top: 110px;
   margin-left: 50px;
@@ -164,11 +170,12 @@ a {
 
 .lots_card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   color: #ffffff;
   padding-right: 24px;
   padding-left: 24px;
-  list-style: none; 
+  list-style-type: none; 
 }
 
 .card {
@@ -182,10 +189,9 @@ a {
   position: relative;
   background-size: cover;
   background-position: bottom;
-  min-width: 334px;
-  height: 596px;
+  max-width: 334px;
+  min-height: 596px;
 
-  
 }
 
 .card_type_film {
@@ -217,19 +223,16 @@ a {
 }
 
 .lots_look-more-link {
-  font-white: 400px;
+  
   font-size: 20px;
   top: 30px;
   margin-left: 64px;
   line-height: 23.48px;
 }
-
 .about {
   display: grid;
   grid-template-columns: 334px auto;
   min-width: 1052px;
-  left: 24px;
-  top: 2073px;
   padding-top: 155px;
 }
 
@@ -237,7 +240,7 @@ a {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding-left: 50px;
+  padding-top: 35px;
 }
 
 .about_logo {
@@ -258,13 +261,13 @@ a {
 .about_title {
   padding-top: 100px;
   padding-left: 50px;
- 
 }
 
 .about_title h2 {
   font-size: 40px;
   line-height: 46.96px;
   text-transform: uppercase;
+  padding-top: 35px;
 }
 
 .about_text {
@@ -291,6 +294,8 @@ a {
 
 .footer_social-list {
   display: flex;
+  min-width: 240px;
+  min-height: 48px;
   gap: 48px;
   list-style: none;
   padding-right: 50px;
@@ -303,5 +308,10 @@ a {
 
 .footer_menu-link_activ {
   text-decoration: none;
+}
+
+.address_footer {
+  padding-top: 1px;
+  margin-right: 0px;
 }
 

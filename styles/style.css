@@ -29,7 +29,6 @@ a {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 45px;
 }
 
 .header_links-list {
@@ -37,9 +36,9 @@ a {
   justify-content: start;
   list-style-type: circle;
   flex-direction: row;
-  gap: 33px;
-  padding: 92px 50px;
-  padding-right: 36.52px;
+  gap: 32px;
+  padding: 132.8px 49.5px;
+  padding-right: 36.52px; 
 }
 
 .header_links-list-item_no-bullit {
@@ -53,7 +52,8 @@ a {
 .header_logo {
   display: block;
   min-width: 135px;
-  padding-top: 50px;
+  padding-top: 92px;
+  padding-bottom: 93.03px;
 }
 
 .header_logo-image {
@@ -69,7 +69,7 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #000000; 
-  padding-top: 54px;
+  padding-top: 95px;
   margin-right: 50px;
   padding-left: 10px;
 }
@@ -133,7 +133,7 @@ a {
   align-items: baseline;
   text-transform: uppercase;
   z-index: 1;
-  padding-top: 108px;
+  padding-top: 105px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -142,7 +142,7 @@ a {
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  word-spacing: 18px;
+  word-spacing: 18.5px;
   line-height: 50px;
   font-size: 22px;
   color: #ffffff;
@@ -165,9 +165,8 @@ a {
 
 .lots_heading {
   font-size: 40px;
-  margin-bottom: 27px;
-  margin-left: 64px;
-  padding-top: 1px;
+  margin-bottom: 25px;
+  margin-left: 63px;
   line-height: 47px;
   text-transform: uppercase;
 }
@@ -221,7 +220,7 @@ a {
   font-size: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 49px;
+  padding-bottom: 48px;
   line-height: 24px;
 }
 
@@ -243,8 +242,8 @@ a {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding-top: 10px;
-  margin-left: 24px;
+  padding-top: 12px;
+  margin-left: 23.5px;
 }
 
 .about_logo {
@@ -270,7 +269,7 @@ a {
   font-size: 40px;
   line-height: 46.96px;
   text-transform: uppercase;
-  padding-top: 113px;
+  padding-top: 114px;
 }
 
 .about_text {
@@ -281,26 +280,27 @@ a {
   font-weight: 400;
   line-height: 24px;
   max-width: 688px;
-  padding-top: 100px;
+  padding-top: 99px;
+  padding-left: 0.5px;
 }
 
-.about_text p1 {
+.about_text-1 {
   max-width: 688px;
 }
 
-.about_text p2 {
+.about_text-2 {
   min-width: 693px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  padding-top: 180px;
 }
 
 .footer_menu {
   font-size: 18px;
-  margin-right: 20px;
+  margin-right: 16px;
+  padding-top: 182px;
 }
 
 .footer_social-list {
@@ -310,7 +310,7 @@ a {
   gap: 48px;
   list-style: none;
   margin-right: 50px;
-  padding-top: 1px;
+  padding-top: 180px;
 }
 
 .footer_menu-list {
@@ -322,8 +322,9 @@ a {
   text-decoration: none;
 }
 
-.address_footer { padding-top: 1px;
+.address_footer { 
+  padding-top: 181px;
   margin-right: 0px;
-  margin-left: 42px;
+  margin-left: 41px;
   min-width: 264.57px;
 }

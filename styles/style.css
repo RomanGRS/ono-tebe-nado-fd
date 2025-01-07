@@ -24,7 +24,8 @@ a {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr; font-size: 18px;
+  grid-template-columns: 1fr min-content 1fr; 
+  font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -70,7 +71,6 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #000000; 
-  margin-right: 50px;
   padding-top: 2.5px;
   margin-right: 40px;
 }
@@ -317,7 +317,8 @@ a {
 }
 
 .footer_menu-list {
-  list-style: none; text-align: center;
+  list-style: none; 
+  text-align: center;
 }
 
 .footer_menu-link_activ {

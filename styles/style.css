@@ -24,11 +24,12 @@ a {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  font-size: 18px;
+  grid-template-columns: 1fr min-content 1fr; font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
+  padding-top: 92px;
+  padding-bottom: 92.6px;
 }
 
 .header_links-list {
@@ -36,9 +37,10 @@ a {
   justify-content: start;
   list-style-type: circle;
   flex-direction: row;
-  gap: 32px;
-  padding: 132.8px 49.5px;
-  padding-right: 36.52px; 
+  gap: 31.6px;
+  padding-left: 50px;
+  padding-right: 46.8px;
+  padding-top: 40px;
 }
 
 .header_links-list-item_no-bullit {
@@ -52,8 +54,7 @@ a {
 .header_logo {
   display: block;
   min-width: 135px;
-  padding-top: 92px;
-  padding-bottom: 93.03px;
+  padding-left: 2px;
 }
 
 .header_logo-image {
@@ -69,13 +70,14 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #000000; 
-  padding-top: 95px;
   margin-right: 50px;
-  padding-left: 10px;
+  padding-top: 2.5px;
+  margin-right: 40px;
 }
 
 .address p {
   padding-top: 1px;
+  padding-left: 1px;
 }
 
 .cover {
@@ -133,8 +135,8 @@ a {
   align-items: baseline;
   text-transform: uppercase;
   z-index: 1;
-  padding-top: 105px;
-  padding-left: 50px;
+  padding-top: 106px;
+  padding-left: 51px;
   padding-right: 50px;
 }
 
@@ -166,8 +168,9 @@ a {
 .lots_heading {
   font-size: 40px;
   margin-bottom: 25px;
-  margin-left: 63px;
+  margin-left: 64px;
   line-height: 47px;
+  padding-top: 2px;
   text-transform: uppercase;
 }
 
@@ -299,7 +302,7 @@ a {
 
 .footer_menu {
   font-size: 18px;
-  margin-right: 16px;
+  margin-right: 22px;
   padding-top: 182px;
 }
 
@@ -314,8 +317,7 @@ a {
 }
 
 .footer_menu-list {
-  list-style: none;
-  text-align: center;
+  list-style: none; text-align: center;
 }
 
 .footer_menu-link_activ {
@@ -325,6 +327,7 @@ a {
 .address_footer { 
   padding-top: 181px;
   margin-right: 0px;
-  margin-left: 41px;
+  margin-left: 50px;
   min-width: 264.57px;
+  padding-bottom: 92px;
 }
